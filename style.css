@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background: #313434;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    height: 100vh;
+   
+  }
+
+  .controls {
+    margin-bottom: 50px;
+    height: 90vh;
+  }
+
+  input {
+    width: 100px;
+   
+  }
+  :root{
+    --base:#646051;
+    --spacing:10px;
+    --blur:10px;
+  }
+  img{
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+    width: 50%;
+    height: 50%;
+    margin-top: 3rem;
+  }
+  .hl{
+    color: var(--base);
+    margin: 0 15px;
+  }
+  h2{
+    background-color: #d6c585;
+    width: 80%;
+    height: 3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin: 2rem auto;
+    border-radius: 3rem;
+    font-size: 2rem;
+  }
